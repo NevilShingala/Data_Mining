@@ -86,7 +86,7 @@ df2=S.fit_transform(df2)
 df2=pd.DataFrame(df2, columns= CorMat.columns)
 df2
 
-#Clustering with K Means with n = 10
+#Clustering with K Means with n = 5
 
 KM=KMeans(n_clusters=5)
 y_pred=KM.fit_predict(df2)
